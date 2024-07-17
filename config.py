@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "6216349"))
 API_HASH = os.environ.get("API_HASH", "5c7418e9f3df6db931caa7354521c55f")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002222620560"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001536362157"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "1823080600")
@@ -37,7 +37,7 @@ DB_URI = os.environ.get("DATABASE_URL", "postgres://zlwrrqqh:3oTF60FLAqCyis0auMc
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", " -1001905633339"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002184657307"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
